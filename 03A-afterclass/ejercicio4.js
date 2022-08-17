@@ -15,7 +15,7 @@
 let numero = parseInt(prompt("Ingrese un número"));
 let suma = 0;
 
-for (let i = 10; i < numero * 10; i *= 10) {
+for (let i = 10; i <= numero * 10; i *= 10) {
   let digito = numero % i;
   let resultado = parseInt(digito / (i / 10));
   suma = suma + resultado;
