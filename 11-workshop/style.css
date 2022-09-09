@@ -1,0 +1,16 @@
+body {
+  margin: 20px;
+}
+
+.field {
+  display: block;
+  margin: 5px;
+}
+
+.hideContent {
+  display: none;
+}
+
+.showContent {
+  display: block;
+}
