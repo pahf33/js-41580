@@ -1,0 +1,25 @@
+body {
+  margin: 20px;
+}
+
+.field {
+  display: block;
+  margin: 5px;
+}
+
+.hideContent {
+  display: none;
+}
+
+.showContent {
+  display: block;
+}
+
+#menuContent {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.ownCard {
+  margin: 10px;
+}
